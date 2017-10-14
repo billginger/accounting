@@ -1,5 +1,7 @@
 const Koa = require('koa');
 const Router = require('koa-router');
+const static = require('koa-static');
+
 const app = new Koa();
 const router = new Router();
 
@@ -12,6 +14,8 @@ router.get('/login', ctx => {
 });
 
 app.use(router.routes()).use(router.allowedMethods());
+
+app.use(static('./static'));
 
 app.listen(3001);
 console.log('accounting is starting at port 3001');
