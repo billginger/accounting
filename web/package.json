@@ -9,6 +9,7 @@
   "author": "Bill",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.3.0"
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
   }
 }
