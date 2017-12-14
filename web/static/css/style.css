@@ -1,10 +1,11 @@
 /* Global */
 html, body {
 	height: 100%;
+	background: #eee;
 }
 #jf-wrapper {
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 768px;
 	height: 100%;
 	background: #f8f8f8;
 	box-shadow: 0 0 1px #999;
